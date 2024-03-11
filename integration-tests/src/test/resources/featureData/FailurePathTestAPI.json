@@ -1,0 +1,62 @@
+{
+  "feature": {
+    "id": "FailurePathTestAPI",
+    "description": "This feature has failure CRUD operations for booking API",
+    "scenarios": {
+      "FailurePathTestAPI_Create_Invalid_Accept_TS01": {
+        "uservice": "booker",
+        "basePath":"",
+        "dependsOnPrevious": "False",
+        "doNotCompare": [
+          {
+            "path": "bookingid"
+          }
+        ],
+        "headerParams": [
+          {
+            "name": "Accept",
+            "value": "INVALID"
+          }
+        ],
+        "params": [
+          {
+            "name": "bookingid",
+            "value": "bookingid"
+          }
+        ]
+      },
+      "FailurePathTestAPI_Create_Invalid_Addlneeds_TS01": {
+        "uservice": "booker",
+        "basePath":"",
+        "dependsOnPrevious": "False",
+        "doNotCompare": [
+          {
+            "path": "bookingid"
+          }
+        ],
+        "params": [
+          {
+            "name": "bookingid",
+            "value": "bookingid"
+          }
+        ]
+      },
+      "FailurePathTestAPI_Create_Invalid_CheckIn_TS01": {
+        "uservice": "booker",
+        "basePath":"",
+        "dependsOnPrevious": "False",
+        "doNotCompare": [
+          {
+            "path": "bookingid"
+          }
+        ],
+        "params": [
+          {
+            "name": "bookingid",
+            "value": "bookingid"
+          }
+        ]
+      }
+    }
+  }
+}

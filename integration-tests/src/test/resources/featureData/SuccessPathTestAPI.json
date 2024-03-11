@@ -1,0 +1,107 @@
+{
+  "feature": {
+    "id": "SuccessPathTestAPI",
+    "description": "This feature has successful CRUD operations for booking API",
+    "scenarios": {
+      "SuccessPathTestAPI_TS01": {
+        "uservice": "ping",
+        "basePath":""
+      },
+      "SuccessPathTestAPI_TS02": {
+        "uservice": "booker",
+        "basePath":"",
+        "doNotCompare": [
+          {
+            "path": "bookingid"
+          }
+        ],
+        "params": [
+          {
+            "name": "bookingid",
+            "value": "bookingid"
+          }
+        ]
+      },
+      "SuccessPathTestAPI_TS03": {
+        "uservice": "booker",
+        "basePath":"${bookingid}"
+      },
+      "SuccessPathTestAPI_TS04": {
+        "uservice": "booker",
+        "basePath":""
+      },
+      "SuccessPathTestAPI_TS05": {
+        "uservice": "booker",
+        "basePath":"",
+        "queryParams": [
+          {
+            "name": "firstname",
+            "value": "Pranay"
+          },
+          {
+            "name": "lastname",
+            "value": "Reddy"
+          }
+        ]
+      },
+      "SuccessPathTestAPI_TS06": {
+        "uservice": "booker",
+        "basePath":"",
+        "queryParams": [
+          {
+            "name": "checkin",
+            "value": "2024-03-19"
+          },
+          {
+            "name": "checkout",
+            "value": "2024-03-30"
+          }
+        ]
+      },
+      "SuccessPathTestAPI_TS07": {
+        "uservice": "booker",
+        "basePath":"${bookingid}",
+        "headerParams": [
+          {
+            "name": "Authorization",
+            "value": "Basic YWRtaW46cGFzc3dvcmQxMjM="
+          }
+        ]
+      },
+      "SuccessPathTestAPI_TS08": {
+        "uservice": "booker",
+        "basePath":"${bookingid}",
+        "headerParams": [
+          {
+            "name": "Authorization",
+            "value": "Basic YWRtaW46cGFzc3dvcmQxMjM="
+          }
+        ],
+        "doNotCompare": [
+          {
+            "path": "totalprice"
+          },
+          {
+            "path": "depositpaid"
+          },
+          {
+            "path": "bookingdates"
+          },
+          {
+            "path": "additionalneeds"
+          }
+        ]
+      },
+      "SuccessPathTestAPI_TS09": {
+        "uservice": "booker",
+        "basePath":"${bookingid}",
+        "headerParams": [
+          {
+            "name": "Authorization",
+            "value": "Basic YWRtaW46cGFzc3dvcmQxMjM="
+          }
+        ]
+      }
+    }
+  }
+}

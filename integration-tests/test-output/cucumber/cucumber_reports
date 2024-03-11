@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="16.835">
+<testcase classname="This feature has successful CRUD operations for booking API" name="SuccessPathTestAPI_TS01" time="3.823">
+<system-out><![CDATA[Given I want to build the request...........................................passed
+When I submit the "GET" request.............................................passed
+Then The status code should be 201..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has successful CRUD operations for booking API" name="SuccessPathTestAPI_TS02" time="1.598">
+<system-out><![CDATA[Given I want to build the request with body.................................passed
+When I submit the "POST" request............................................passed
+Then The status code should be 200..........................................passed
+And The response body should be as expected.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has successful CRUD operations for booking API" name="SuccessPathTestAPI_TS03" time="1.67">
+<system-out><![CDATA[Given I want to build the request...........................................passed
+When I submit the "GET" request.............................................passed
+Then The status code should be 200..........................................passed
+And The response body should be as expected.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has successful CRUD operations for booking API" name="SuccessPathTestAPI_TS04" time="1.39">
+<system-out><![CDATA[Given I want to build the request...........................................passed
+When I submit the "GET" request.............................................passed
+Then The status code should be 200..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has successful CRUD operations for booking API" name="SuccessPathTestAPI_TS05" time="1.632">
+<system-out><![CDATA[Given I want to build the request...........................................passed
+When I submit the "GET" request.............................................passed
+Then The status code should be 200..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has successful CRUD operations for booking API" name="SuccessPathTestAPI_TS06" time="1.525">
+<system-out><![CDATA[Given I want to build the request...........................................passed
+When I submit the "GET" request.............................................passed
+Then The status code should be 200..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has successful CRUD operations for booking API" name="SuccessPathTestAPI_TS07" time="1.58">
+<system-out><![CDATA[Given I want to build the request with body.................................passed
+When I submit the "PUT" request.............................................passed
+Then The status code should be 200..........................................passed
+And The response body should be as expected.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has successful CRUD operations for booking API" name="SuccessPathTestAPI_TS08" time="1.624">
+<system-out><![CDATA[Given I want to build the request with body.................................passed
+When I submit the "PATCH" request...........................................passed
+Then The status code should be 200..........................................passed
+And The response body should be as expected.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has successful CRUD operations for booking API" name="SuccessPathTestAPI_TS09" time="1.582">
+<system-out><![CDATA[Given I want to build the request...........................................passed
+When I submit the "DELETE" request..........................................passed
+Then The status code should be 201..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

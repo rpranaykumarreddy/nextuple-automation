@@ -1,0 +1,11 @@
+{
+  "firstname": "Pranay",
+  "lastname": "Reddy",
+  "totalprice": 200,
+  "depositpaid": false,
+  "bookingdates": {
+    "checkin": "2024-04-20",
+    "checkout": "2019-04-24"
+  },
+  "additionalneeds": "Food and car"
+}
