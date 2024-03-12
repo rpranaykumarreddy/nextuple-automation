@@ -27,7 +27,7 @@ Scenario: FailurePathTestAPI_TS04
 
 Scenario: FailurePathTestAPI_TS05
   Description:This scenario verifies the request with invalid Content-type
-  Given I want to build the request
+  Given I want to build the request with CSV
   When I submit the "POST" request
   Then The status code should be 500
 
