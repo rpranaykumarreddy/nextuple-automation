@@ -1,5 +1,6 @@
 @SuccessPathTestAPI
-Feature: This feature has successful CRUD operations for booking API
+Feature: SuccessPathTestAPI
+  Description: This feature has success flow path CRUD operations for API
 
   Scenario: SuccessPathTestAPI_TS01
   Description: This scenario verifies the existence of the server
