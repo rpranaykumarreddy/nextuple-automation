@@ -2,6 +2,16 @@
   "feature": {
     "id": "SuccessPathTestAPI",
     "description": "This feature has successful CRUD operations for booking API",
+    "headerParams": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
     "scenarios": {
       "SuccessPathTestAPI_TS01": {
         "uservice": "ping",

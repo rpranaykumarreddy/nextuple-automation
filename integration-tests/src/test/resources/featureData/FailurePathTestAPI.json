@@ -2,58 +2,306 @@
   "feature": {
     "id": "FailurePathTestAPI",
     "description": "This feature has failure CRUD operations for booking API",
+    "params": [
+      {
+        "name": "bookingid",
+        "value": "bookingid"
+      }
+    ],
     "scenarios": {
-      "FailurePathTestAPI_Create_Invalid_Accept_TS01": {
+      "FailurePathTestAPI_TS01": {
         "uservice": "booker",
         "basePath":"",
         "dependsOnPrevious": "False",
-        "doNotCompare": [
-          {
-            "path": "bookingid"
-          }
-        ],
         "headerParams": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
           {
             "name": "Accept",
             "value": "INVALID"
           }
-        ],
-        "params": [
-          {
-            "name": "bookingid",
-            "value": "bookingid"
-          }
         ]
       },
-      "FailurePathTestAPI_Create_Invalid_Addlneeds_TS01": {
+      "FailurePathTestAPI_TS02": {
         "uservice": "booker",
         "basePath":"",
         "dependsOnPrevious": "False",
-        "doNotCompare": [
+        "headerParams": [
           {
-            "path": "bookingid"
-          }
-        ],
-        "params": [
+            "name": "Content-Type",
+            "value": "application/json"
+          },
           {
-            "name": "bookingid",
-            "value": "bookingid"
+            "name": "Accept",
+            "value": "application/json"
           }
         ]
       },
-      "FailurePathTestAPI_Create_Invalid_CheckIn_TS01": {
+      "FailurePathTestAPI_TS03": {
         "uservice": "booker",
         "basePath":"",
         "dependsOnPrevious": "False",
+        "headerParams": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Accept",
+            "value": "application/json"
+          }
+        ]
+      },
+      "FailurePathTestAPI_TS04": {
+        "uservice": "booker",
+        "basePath":"",
+        "dependsOnPrevious": "False",
+        "headerParams": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Accept",
+            "value": "application/json"
+          }
+        ]
+      },
+      "FailurePathTestAPI_TS05": {
+        "uservice": "booker",
+        "basePath":"",
+        "dependsOnPrevious": "False",
+        "headerParams": [
+          {
+            "name": "Content-Type",
+            "value": "INVALID"
+          },
+          {
+            "name": "Accept",
+            "value": "application/json"
+          }
+        ]
+      },
+      "FailurePathTestAPI_TS06": {
+        "uservice": "booker",
+        "basePath":"",
+        "dependsOnPrevious": "False",
+        "headerParams": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Accept",
+            "value": "application/json"
+          }
+        ]
+      },
+      "FailurePathTestAPI_TS07": {
+        "uservice": "booker",
+        "basePath":"",
+        "dependsOnPrevious": "False",
+        "headerParams": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Accept",
+            "value": "application/json"
+          }
+        ]
+      },
+      "FailurePathTestAPI_TS08": {
+        "uservice": "booker",
+        "basePath":"",
+        "dependsOnPrevious": "False",
+        "headerParams": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Accept",
+            "value": "application/json"
+          }
+        ]
+      },
+      "FailurePathTestAPI_TS09": {
+        "uservice": "booker",
+        "basePath":"",
+        "dependsOnPrevious": "False",
+        "headerParams": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Accept",
+            "value": "application/json"
+          }
+        ]
+      },
+      "FailurePathTestAPI_TS10": {
+        "uservice": "booker",
+        "basePath":"",
+        "dependsOnPrevious": "False",
+        "headerParams": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ]
+      },
+      "FailurePathTestAPI_TS11": {
+        "uservice": "booker",
+        "basePath":"",
+        "dependsOnPrevious": "False",
+        "headerParams": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Accept",
+            "value": "application/json"
+          }
+        ]
+      },
+      "FailurePathTestAPI_TS12": {
+        "uservice": "booker",
+        "basePath":"",
+        "dependsOnPrevious": "False",
+        "headerParams": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Accept",
+            "value": "application/json"
+          }
+        ]
+      },
+      "FailurePathTestAPI_TS13": {
+        "uservice": "booker",
+        "basePath":"",
+        "dependsOnPrevious": "False",
+        "headerParams": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Accept",
+            "value": "application/json"
+          }
+        ]
+      },
+      "FailurePathTestAPI_TS14": {
+        "uservice": "booker",
+        "basePath":"",
+        "dependsOnPrevious": "False",
+        "headerParams": [
+          {
+            "name": "Accept",
+            "value": "application/json"
+          }
+        ]
+      },
+      "FailurePathTestAPI_TS15": {
+        "uservice": "booker",
+        "basePath":"",
+        "dependsOnPrevious": "False",
+        "headerParams": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Accept",
+            "value": "application/json"
+          }
+        ]
+      },
+      "FailurePathTestAPI_TS16": {
+        "uservice": "booker",
+        "basePath":"",
+        "dependsOnPrevious": "False",
+        "headerParams": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Accept",
+            "value": "application/json"
+          }
+        ]
+      },
+      "FailurePathTestAPI_TS17": {
+        "uservice": "booker",
+        "basePath":"",
+        "dependsOnPrevious": "False",
+        "headerParams": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Accept",
+            "value": "application/json"
+          }
+        ]
+      },
+      "FailurePathTestAPI_TS18": {
+        "uservice": "booker",
+        "basePath":"",
+        "dependsOnPrevious": "False",
+        "headerParams": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Accept",
+            "value": "application/json"
+          }
+        ]
+      },
+      "FailurePathTestAPI_TS19": {
+        "uservice": "booker",
+        "basePath":"10000000000000",
+        "dependsOnPrevious": "False",
+        "headerParams": [
+          {
+            "name": "Accept",
+            "value": "application/json"
+          }
+        ]
+      },
+      "FailurePathTestAPI_TS20": {
+        "uservice": "booker",
+        "basePath":"",
+        "queryParams": [
+          {
+            "name": "checkin",
+            "value": "2024-03-30"
+          },
+          {
+            "name": "checkout",
+            "value": "2024-03-19"
+          }
+        ]
+      },
+      "FailurePathTestAPI_TS21": {
+        "uservice": "booker",
+        "basePath":"",
         "doNotCompare": [
           {
             "path": "bookingid"
-          }
-        ],
-        "params": [
-          {
-            "name": "bookingid",
-            "value": "bookingid"
           }
         ]
       }
