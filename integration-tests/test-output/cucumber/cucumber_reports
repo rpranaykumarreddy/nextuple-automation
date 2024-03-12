@@ -1,148 +1,205 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="1" tests="21" time="34.294">
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS01" time="4.338">
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="33" time="51.253">
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS01" time="3.893">
 <system-out><![CDATA[Given I want to build the request with body.................................passed
 When I submit the "POST" request............................................passed
 Then The status code should be 418..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS02" time="1.798">
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS02" time="1.66">
 <system-out><![CDATA[Given I want to build the request with body.................................passed
 When I submit the "POST" request............................................passed
 Then The status code should be 200..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS03" time="1.365">
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS03" time="1.623">
 <system-out><![CDATA[Given I want to build the request with body.................................passed
 When I submit the "POST" request............................................passed
 Then The status code should be 200..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS04" time="1.69">
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS04" time="1.631">
 <system-out><![CDATA[Given I want to build the request with body.................................passed
 When I submit the "POST" request............................................passed
 Then The status code should be 200..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS05" time="1.421">
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS05" time="1.439">
 <system-out><![CDATA[Given I want to build the request...........................................passed
 When I submit the "POST" request............................................passed
 Then The status code should be 500..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS06" time="1.529">
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS06" time="1.622">
 <system-out><![CDATA[Given I want to build the request with body.................................passed
 When I submit the "POST" request............................................passed
 Then The status code should be 200..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS07" time="1.332">
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS07" time="1.39">
 <system-out><![CDATA[Given I want to build the request with body.................................passed
 When I submit the "POST" request............................................passed
 Then The status code should be 500..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS08" time="1.524">
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS08" time="1.564">
 <system-out><![CDATA[Given I want to build the request with body.................................passed
 When I submit the "POST" request............................................passed
 Then The status code should be 500..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS09" time="1.447">
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS09" time="1.53">
 <system-out><![CDATA[Given I want to build the request with body.................................passed
 When I submit the "POST" request............................................passed
 Then The status code should be 200..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS10" time="1.508">
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS10" time="1.534">
 <system-out><![CDATA[Given I want to build the request with body.................................passed
 When I submit the "POST" request............................................passed
 Then The status code should be 200..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS11" time="1.471">
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS11" time="1.328">
 <system-out><![CDATA[Given I want to build the request with body.................................passed
 When I submit the "POST" request............................................passed
 Then The status code should be 200..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS12" time="1.621">
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS12" time="1.528">
 <system-out><![CDATA[Given I want to build the request...........................................passed
 When I submit the "POST" request............................................passed
 Then The status code should be 500..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS13" time="1.444">
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS13" time="1.427">
 <system-out><![CDATA[Given I want to build the request with body.................................passed
 When I submit the "POST" request............................................passed
 Then The status code should be 500..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS14" time="1.779">
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS14" time="1.252">
 <system-out><![CDATA[Given I want to build the request with body.................................passed
 When I submit the "POST" request............................................passed
 Then The status code should be 500..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS15" time="1.632">
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS15" time="1.404">
 <system-out><![CDATA[Given I want to build the request with body.................................passed
 When I submit the "POST" request............................................passed
 Then The status code should be 500..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS16" time="1.459">
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS16" time="1.419">
 <system-out><![CDATA[Given I want to build the request with body.................................passed
 When I submit the "POST" request............................................passed
 Then The status code should be 500..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS17" time="1.602">
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS17" time="1.247">
 <system-out><![CDATA[Given I want to build the request with body.................................passed
 When I submit the "POST" request............................................passed
 Then The status code should be 500..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS18" time="1.53">
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS18" time="1.453">
 <system-out><![CDATA[Given I want to build the request with body.................................passed
 When I submit the "POST" request............................................passed
 Then The status code should be 500..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS19" time="1.521">
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS19" time="1.485">
 <system-out><![CDATA[Given I want to build the request...........................................passed
 When I submit the "GET" request.............................................passed
 Then The status code should be 404..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS20" time="1.839">
-<failure message="expected [404] but found [200]" type="java.lang.AssertionError"><![CDATA[Given I want to build the request...........................................passed
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS20" time="1.532">
+<system-out><![CDATA[Given I want to build the request...........................................passed
 When I submit the "GET" request.............................................passed
-Then The status code should be 404..........................................failed
-
-StackTrace:
-java.lang.AssertionError: expected [404] but found [200]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:839)
-	at org.testng.Assert.assertEquals(Assert.java:849)
-	at common.Rest.validateStatusCode(Rest.java:499)
-	at stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(StepDefinition.java:312)
-	at ✽.The status code should be 404(file:///home/ravula/Documents/pranay.nextuple/nextuple-automation/integration-tests/src/test/java/features/FailurePathTestAPI.feature:123)
-]]></failure>
+Then The status code should be 200..........................................passed
+]]></system-out>
 </testcase>
-<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS21" time="0.037">
-<skipped message="org.opentest4j.TestAbortedException: Assumption failed: assumption is not true&#10;&#9;at org.junit.jupiter.api.Assumptions.throwTestAbortedException(Assumptions.java:256)&#10;&#9;at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)&#10;&#9;at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:66)&#10;&#9;at stepdefinition.StepDefinition.findFailedScenarioName(StepDefinition.java:183)&#10;&#9;at stepdefinition.StepDefinition.before(StepDefinition.java:176)&#10;"><![CDATA[Given I want to build the request with body.................................skipped
-When I submit the "POST" request............................................skipped
-Then The status code should be 200..........................................skipped
-And The response body should be as expected.................................skipped
-
-StackTrace:
-org.opentest4j.TestAbortedException: Assumption failed: assumption is not true
-	at org.junit.jupiter.api.Assumptions.throwTestAbortedException(Assumptions.java:256)
-	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)
-	at org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:66)
-	at stepdefinition.StepDefinition.findFailedScenarioName(StepDefinition.java:183)
-	at stepdefinition.StepDefinition.before(StepDefinition.java:176)
-]]></skipped>
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS21" time="1.528">
+<system-out><![CDATA[Given I want to build the request with body.................................passed
+When I submit the "POST" request............................................passed
+Then The status code should be 200..........................................passed
+And The response body should be as expected.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS22" time="1.946">
+<system-out><![CDATA[Given I want to build the request with body.................................passed
+When I submit the "PATCH" request...........................................passed
+Then The status code should be 200..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS23" time="1.431">
+<system-out><![CDATA[Given I want to build the request...........................................passed
+When I submit the "DELETE" request..........................................passed
+Then The status code should be 403..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has CRUD operations for API" name="FailurePathTestAPI_TS24" time="1.325">
+<system-out><![CDATA[Given I want to build the request...........................................passed
+When I submit the "DELETE" request..........................................passed
+Then The status code should be 403..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has successful CRUD operations for booking API" name="SuccessPathTestAPI_TS01" time="1.427">
+<system-out><![CDATA[Given I want to build the request...........................................passed
+When I submit the "GET" request.............................................passed
+Then The status code should be 201..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has successful CRUD operations for booking API" name="SuccessPathTestAPI_TS02" time="1.668">
+<system-out><![CDATA[Given I want to build the request with body.................................passed
+When I submit the "POST" request............................................passed
+Then The status code should be 200..........................................passed
+And The response body should be as expected.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has successful CRUD operations for booking API" name="SuccessPathTestAPI_TS03" time="1.228">
+<system-out><![CDATA[Given I want to build the request...........................................passed
+When I submit the "GET" request.............................................passed
+Then The status code should be 200..........................................passed
+And The response body should be as expected.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has successful CRUD operations for booking API" name="SuccessPathTestAPI_TS04" time="1.593">
+<system-out><![CDATA[Given I want to build the request...........................................passed
+When I submit the "GET" request.............................................passed
+Then The status code should be 200..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has successful CRUD operations for booking API" name="SuccessPathTestAPI_TS05" time="1.534">
+<system-out><![CDATA[Given I want to build the request...........................................passed
+When I submit the "GET" request.............................................passed
+Then The status code should be 200..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has successful CRUD operations for booking API" name="SuccessPathTestAPI_TS06" time="1.477">
+<system-out><![CDATA[Given I want to build the request...........................................passed
+When I submit the "GET" request.............................................passed
+Then The status code should be 200..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has successful CRUD operations for booking API" name="SuccessPathTestAPI_TS07" time="1.325">
+<system-out><![CDATA[Given I want to build the request with body.................................passed
+When I submit the "PUT" request.............................................passed
+Then The status code should be 200..........................................passed
+And The response body should be as expected.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has successful CRUD operations for booking API" name="SuccessPathTestAPI_TS08" time="1.18">
+<system-out><![CDATA[Given I want to build the request with body.................................passed
+When I submit the "PATCH" request...........................................passed
+Then The status code should be 200..........................................passed
+And The response body should be as expected.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has successful CRUD operations for booking API" name="SuccessPathTestAPI_TS09" time="1.155">
+<system-out><![CDATA[Given I want to build the request...........................................passed
+When I submit the "DELETE" request..........................................passed
+Then The status code should be 201..........................................passed
+]]></system-out>
 </testcase>
 </testsuite>

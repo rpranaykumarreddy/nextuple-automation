@@ -44,7 +44,6 @@
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
 						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
-			<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
 		</ul>
 		<!-- report name -->
@@ -54,7 +53,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Mar 12, 2024 03:14:21 pm</span>
+			<span class='label blue darken-3 suite-start-time'>Mar 12, 2024 04:44:04 pm</span>
 			</a>
 		</ul>
 	</div>
@@ -70,8 +69,6 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
-					<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -84,6 +81,7 @@
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
 					<li><a href='#'>@FailurePathTestAPI</a></li>
+					<li><a href='#'>@SuccessPathTestAPI</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -124,10 +122,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='0%'><span class='strong'>0</span> feature(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>2</span> feature(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='100%'>1</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
                 </div>
             </div>
         </div>
@@ -138,12 +136,12 @@
                     <canvas id='child-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='90.476%'><span class='strong'>19</span> scenario(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>33</span> scenario(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='4.762%'>1</span> scenario(s) failed, 
-                    <span class='strong tooltipped' data-position='top' data-tooltip='4.762%'>1</span> skipped, 
-                    <span class='strong tooltipped' data-position='top' data-tooltip='4.762%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -154,12 +152,12 @@
                     <canvas id='grandchild-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='92.188%'><span class='strong'>59</span> step(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>104</span> step(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='1.562%'>1</span> scenario(s) failed, 
-                    <span class='strong tooltipped' data-position='top' data-tooltip='6.25%'>4</span> skipped, 
-                    <span class='strong tooltipped' data-position='top' data-tooltip='6.25%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped, 
+                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -177,11 +175,11 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>This feature has CRUD operations for API</span>
-						<span class='test-time'>Mar 12, 2024 03:14:23 pm</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Mar 12, 2024 04:44:06 pm</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class="sr-filters bdd-filters">
@@ -194,7 +192,7 @@
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 3s+85ms</span>
+	<span class='duration right label'>0h 0m 2s+500ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS01</div>
 		Description:This scenario verifies the request with invalid Accept
@@ -218,7 +216,7 @@
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+774ms</span>
+	<span class='duration right label'>0h 0m 1s+633ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS02</div>
 		Description:This scenario verifies the request with invalid Additional Needs
@@ -242,7 +240,7 @@
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+344ms</span>
+	<span class='duration right label'>0h 0m 1s+600ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS03</div>
 		Description:This scenario verifies the request with invalid Check-in type
@@ -266,7 +264,7 @@
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+662ms</span>
+	<span class='duration right label'>0h 0m 1s+610ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS04</div>
 		Description:This scenario verifies the request with invalid Check-out date format
@@ -290,7 +288,7 @@
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+401ms</span>
+	<span class='duration right label'>0h 0m 1s+415ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS05</div>
 		Description:This scenario verifies the request with invalid Content-type
@@ -314,7 +312,7 @@
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+509ms</span>
+	<span class='duration right label'>0h 0m 1s+602ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS06</div>
 		Description:This scenario verifies the request with invalid Deposit-paid
@@ -338,7 +336,7 @@
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+313ms</span>
+	<span class='duration right label'>0h 0m 1s+344ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS07</div>
 		Description:This scenario verifies the request with invalid First-name type
@@ -362,7 +360,7 @@
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+490ms</span>
+	<span class='duration right label'>0h 0m 1s+539ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS08</div>
 		Description:This scenario verifies the request with invalid Last-name as null
@@ -386,7 +384,7 @@
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+428ms</span>
+	<span class='duration right label'>0h 0m 1s+512ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS09</div>
 		Description:This scenario verifies the request with invalid Total-price type
@@ -410,7 +408,7 @@
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+488ms</span>
+	<span class='duration right label'>0h 0m 1s+517ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS10</div>
 		Description:This scenario verifies the request without Accept
@@ -434,7 +432,7 @@
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+449ms</span>
+	<span class='duration right label'>0h 0m 1s+311ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS11</div>
 		Description:This scenario verifies the request without Additional needs
@@ -458,7 +456,7 @@
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+593ms</span>
+	<span class='duration right label'>0h 0m 1s+513ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS12</div>
 		Description:This scenario verifies the request without Body
@@ -482,7 +480,7 @@
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+421ms</span>
+	<span class='duration right label'>0h 0m 1s+412ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS13</div>
 		Description:This scenario verifies the request without Booking-dates fields
@@ -506,7 +504,7 @@
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+724ms</span>
+	<span class='duration right label'>0h 0m 1s+219ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS14</div>
 		Description:This scenario verifies the request without Content-type
@@ -530,7 +528,7 @@
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+613ms</span>
+	<span class='duration right label'>0h 0m 1s+390ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS15</div>
 		Description:This scenario verifies the request without Deposit-paid
@@ -554,7 +552,7 @@
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+442ms</span>
+	<span class='duration right label'>0h 0m 1s+403ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS16</div>
 		Description:This scenario verifies the request without First-name
@@ -578,7 +576,7 @@
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+579ms</span>
+	<span class='duration right label'>0h 0m 1s+231ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS17</div>
 		Description:This scenario verifies the request without Last-name
@@ -602,7 +600,7 @@
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+513ms</span>
+	<span class='duration right label'>0h 0m 1s+435ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS18</div>
 		Description:This scenario verifies the request without Total-price
@@ -626,7 +624,7 @@
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+506ms</span>
+	<span class='duration right label'>0h 0m 1s+469ms</span>
 	<div class="bdd-test">
 		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS19</div>
 		Description:This scenario verifies the request with invalid ID
@@ -646,13 +644,13 @@
 		</li>
 	</ul>
 </div>
-<div class='scenario node' test-id='135' status='fail'>
+<div class='scenario node' test-id='135' status='pass'>
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 1s+821ms</span>
+	<span class='duration right label'>0h 0m 1s+517ms</span>
 	<div class="bdd-test">
-		<div class="scenario-name"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span> Scenario: FailurePathTestAPI_TS20</div>
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS20</div>
 		Description:This scenario verifies the fetching with reversed booking dates
 	</div>
 	<ul class='steps'>
@@ -664,46 +662,356 @@
 			<div class="step-name" title="stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When I submit the "GET" request</div>
 			<div class="node-step"></div>
 		</li>
-		<li test-id='140' class='node then fail' status='fail'>
-			<div class="step-name" title="stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"><span class='status fail' title='fail'><i class='material-icons'>cancel</i></span>Then The status code should be 404</div>
-			<textarea disabled class="code-block">java.lang.AssertionError: expected [404] but found [200]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:839)
-	at org.testng.Assert.assertEquals(Assert.java:849)
-	at common.Rest.validateStatusCode(Rest.java:499)
-	at stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(StepDefinition.java:312)
-	at ✽.The status code should be 404(file:///home/ravula/Documents/pranay.nextuple/nextuple-automation/integration-tests/src/test/java/features/FailurePathTestAPI.feature:123)
-</textarea>
+		<li test-id='140' class='node then pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then The status code should be 200</div>
+			<div class="node-step"></div>
 		</li>
 	</ul>
 </div>
-<div class='scenario node' test-id='142' status='skip'>
+<div class='scenario node' test-id='142' status='pass'>
 	<div class='category-list'>
 		<span class='category label'>@FailurePathTestAPI</span>
 	</div>
-	<span class='duration right label'>0h 0m 0s+2ms</span>
+	<span class='duration right label'>0h 0m 1s+505ms</span>
 	<div class="bdd-test">
-		<div class="scenario-name"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span> Scenario: FailurePathTestAPI_TS21</div>
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS21</div>
 		Description:This scenario verifies & provides creation of a booking
 	</div>
 	<ul class='steps'>
-		<li test-id='145' class='node given skip' status='skip'>
-			<div class="step-name" title="stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Given I want to build the request with body</div>
-			<div class="node-step">Step skipped</div>
+		<li test-id='145' class='node given pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given I want to build the request with body</div>
+			<div class="node-step"></div>
 		</li>
-		<li test-id='146' class='node when skip' status='skip'>
-			<div class="step-name" title="stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>When I submit the "POST" request</div>
-			<div class="node-step">Step skipped</div>
+		<li test-id='146' class='node when pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When I submit the "POST" request</div>
+			<div class="node-step"></div>
 		</li>
-		<li test-id='147' class='node then skip' status='skip'>
-			<div class="step-name" title="stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>Then The status code should be 200</div>
-			<div class="node-step">Step skipped</div>
+		<li test-id='147' class='node then pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then The status code should be 200</div>
+			<div class="node-step"></div>
 		</li>
-		<li test-id='148' class='node and skip' status='skip'>
-			<div class="step-name" title="stepdefinition.StepDefinition.theResponseBodyShouldBeAsExpected()"><span class='status skip' title='skip'><i class='material-icons'>redo</i></span>And The response body should be as expected</div>
-			<div class="node-step">Step skipped</div>
+		<li test-id='148' class='node and pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.theResponseBodyShouldBeAsExpected()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And The response body should be as expected</div>
+			<div class="node-step"></div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='150' status='pass'>
+	<div class='category-list'>
+		<span class='category label'>@FailurePathTestAPI</span>
+	</div>
+	<span class='duration right label'>0h 0m 1s+929ms</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS22</div>
+		Description:This scenario verifies the request with reversed booking dates
+	</div>
+	<ul class='steps'>
+		<li test-id='153' class='node given pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given I want to build the request with body</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='154' class='node when pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When I submit the "PATCH" request</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='155' class='node then pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then The status code should be 200</div>
+			<div class="node-step"></div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='157' status='pass'>
+	<div class='category-list'>
+		<span class='category label'>@FailurePathTestAPI</span>
+	</div>
+	<span class='duration right label'>0h 0m 1s+416ms</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS23</div>
+		Description:This scenario verifies the request with invalid Authorization
+	</div>
+	<ul class='steps'>
+		<li test-id='160' class='node given pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iWantToBuildTheRequest()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given I want to build the request</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='161' class='node when pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When I submit the "DELETE" request</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='162' class='node then pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then The status code should be 403</div>
+			<div class="node-step"></div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='164' status='pass'>
+	<div class='category-list'>
+		<span class='category label'>@FailurePathTestAPI</span>
+	</div>
+	<span class='duration right label'>0h 0m 1s+308ms</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: FailurePathTestAPI_TS24</div>
+		Description:This scenario verifies the request with invalid Cookie
+	</div>
+	<ul class='steps'>
+		<li test-id='167' class='node given pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iWantToBuildTheRequest()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given I want to build the request</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='168' class='node when pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When I submit the "DELETE" request</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='169' class='node then pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then The status code should be 403</div>
+			<div class="node-step"></div>
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='171'>
+					<div class='test-heading'>
+						<span class='test-name'>This feature has successful CRUD operations for booking API</span>
+						<span class='test-time'>Mar 12, 2024 04:44:43 pm</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class="sr-filters bdd-filters">
+	<a class="btn-floating waves-effect waves-light pass green" title="pass"><i class='material-icons'>check_circle</i></a>
+	<a class="btn-floating waves-effect waves-light fail red" title="fail"><i class='material-icons'>cancel</i></a>
+	<a class="btn-floating waves-effect waves-light skip blue" title="skip"><i class='material-icons'>redo</i></a>
+	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
+</div>
+<div class='scenario node' test-id='172' status='pass'>
+	<div class='category-list'>
+		<span class='category label'>@SuccessPathTestAPI</span>
+	</div>
+	<span class='duration right label'>0h 0m 1s+376ms</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: SuccessPathTestAPI_TS01</div>
+		Description: This scenario verifies the existence of the server
+	</div>
+	<ul class='steps'>
+		<li test-id='175' class='node given pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iWantToBuildTheRequest()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given I want to build the request</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='176' class='node when pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When I submit the "GET" request</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='177' class='node then pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then The status code should be 201</div>
+			<div class="node-step"></div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='179' status='pass'>
+	<div class='category-list'>
+		<span class='category label'>@SuccessPathTestAPI</span>
+	</div>
+	<span class='duration right label'>0h 0m 1s+653ms</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: SuccessPathTestAPI_TS02</div>
+		Description: This scenario verifies creation of a booking
+	</div>
+	<ul class='steps'>
+		<li test-id='182' class='node given pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given I want to build the request with body</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='183' class='node when pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When I submit the "POST" request</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='184' class='node then pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then The status code should be 200</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='185' class='node and pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.theResponseBodyShouldBeAsExpected()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And The response body should be as expected</div>
+			<div class="node-step"></div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='187' status='pass'>
+	<div class='category-list'>
+		<span class='category label'>@SuccessPathTestAPI</span>
+	</div>
+	<span class='duration right label'>0h 0m 1s+208ms</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: SuccessPathTestAPI_TS03</div>
+		Description: This scenario verifies fetching of previously created booking
+	</div>
+	<ul class='steps'>
+		<li test-id='190' class='node given pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iWantToBuildTheRequest()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given I want to build the request</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='191' class='node when pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When I submit the "GET" request</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='192' class='node then pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then The status code should be 200</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='193' class='node and pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.theResponseBodyShouldBeAsExpected()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And The response body should be as expected</div>
+			<div class="node-step"></div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='195' status='pass'>
+	<div class='category-list'>
+		<span class='category label'>@SuccessPathTestAPI</span>
+	</div>
+	<span class='duration right label'>0h 0m 1s+574ms</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: SuccessPathTestAPI_TS04</div>
+		Description: This scenario verifies fetching of all the bookings
+	</div>
+	<ul class='steps'>
+		<li test-id='198' class='node given pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iWantToBuildTheRequest()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given I want to build the request</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='199' class='node when pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When I submit the "GET" request</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='200' class='node then pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then The status code should be 200</div>
+			<div class="node-step"></div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='202' status='pass'>
+	<div class='category-list'>
+		<span class='category label'>@SuccessPathTestAPI</span>
+	</div>
+	<span class='duration right label'>0h 0m 1s+508ms</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: SuccessPathTestAPI_TS05</div>
+		Description: This scenario verifies fetching of all the bookings using first name & last name
+	</div>
+	<ul class='steps'>
+		<li test-id='205' class='node given pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iWantToBuildTheRequest()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given I want to build the request</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='206' class='node when pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When I submit the "GET" request</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='207' class='node then pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then The status code should be 200</div>
+			<div class="node-step"></div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='209' status='pass'>
+	<div class='category-list'>
+		<span class='category label'>@SuccessPathTestAPI</span>
+	</div>
+	<span class='duration right label'>0h 0m 1s+461ms</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: SuccessPathTestAPI_TS06</div>
+		Description: This scenario verifies fetching of all the bookings using booking dates
+	</div>
+	<ul class='steps'>
+		<li test-id='212' class='node given pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iWantToBuildTheRequest()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given I want to build the request</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='213' class='node when pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When I submit the "GET" request</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='214' class='node then pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then The status code should be 200</div>
+			<div class="node-step"></div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='216' status='pass'>
+	<div class='category-list'>
+		<span class='category label'>@SuccessPathTestAPI</span>
+	</div>
+	<span class='duration right label'>0h 0m 1s+299ms</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: SuccessPathTestAPI_TS07</div>
+		Description: This scenario verifies updating of previously created booking
+	</div>
+	<ul class='steps'>
+		<li test-id='219' class='node given pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given I want to build the request with body</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='220' class='node when pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When I submit the "PUT" request</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='221' class='node then pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then The status code should be 200</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='222' class='node and pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.theResponseBodyShouldBeAsExpected()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And The response body should be as expected</div>
+			<div class="node-step"></div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='224' status='pass'>
+	<div class='category-list'>
+		<span class='category label'>@SuccessPathTestAPI</span>
+	</div>
+	<span class='duration right label'>0h 0m 1s+163ms</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: SuccessPathTestAPI_TS08</div>
+		Description: This scenario verifies partially updating of previously created booking
+	</div>
+	<ul class='steps'>
+		<li test-id='227' class='node given pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given I want to build the request with body</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='228' class='node when pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When I submit the "PATCH" request</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='229' class='node then pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then The status code should be 200</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='230' class='node and pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.theResponseBodyShouldBeAsExpected()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>And The response body should be as expected</div>
+			<div class="node-step"></div>
+		</li>
+	</ul>
+</div>
+<div class='scenario node' test-id='232' status='pass'>
+	<div class='category-list'>
+		<span class='category label'>@SuccessPathTestAPI</span>
+	</div>
+	<span class='duration right label'>0h 0m 1s+138ms</span>
+	<div class="bdd-test">
+		<div class="scenario-name"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span> Scenario: SuccessPathTestAPI_TS09</div>
+		Description: This scenario verifies deletion of previously created booking
+	</div>
+	<ul class='steps'>
+		<li test-id='235' class='node given pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iWantToBuildTheRequest()"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Given I want to build the request</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='236' class='node when pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>When I submit the "DELETE" request</div>
+			<div class="node-step"></div>
+		</li>
+		<li test-id='237' class='node then pass' status='pass'>
+			<div class="step-name" title="stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"><span class='status pass' title='pass'><i class='material-icons'>check_circle</i></span>Then The status code should be 201</div>
+			<div class="node-step"></div>
 		</li>
 	</ul>
 </div>
@@ -751,16 +1059,14 @@
 					<div class='category-heading'>
 						<span class='category-name'>@FailurePathTestAPI</span>
 						<span class='category-status right'>
-						<span class='label pass'>19</span>
-						<span class='label fail'>1</span>
-						<span class='label others'>1</span>
+						<span class='label pass'>24</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span status="pass" class='label green accent-4 white-text'>Passed: 19</span>
-							<span status="fail" class='label red lighten-1 white-text'>Failed: 1</span>
-							<span status="skip" class='label yellow darken-2 white-text'>Skipped: 1</span>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 24</span>
+							
+							
 						</div>
 						<div class='category-tests'>
 							<table class='bordered table-results'>
@@ -773,114 +1079,207 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Mar 12, 2024 03:14:23 pm</td>
+										<td>Mar 12, 2024 04:44:06 pm</td>
 										<td class='linked' test-id='1'>This feature has CRUD operations for API</td>
-										<td><span class='test-status fail'>fail</span></td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:23 pm</td>
+										<td>Mar 12, 2024 04:44:06 pm</td>
 										<td class='linked' test-id='2'>FailurePathTestAPI_TS01</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:26 pm</td>
+										<td>Mar 12, 2024 04:44:08 pm</td>
 										<td class='linked' test-id='9'>FailurePathTestAPI_TS02</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:28 pm</td>
+										<td>Mar 12, 2024 04:44:10 pm</td>
 										<td class='linked' test-id='16'>FailurePathTestAPI_TS03</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:29 pm</td>
+										<td>Mar 12, 2024 04:44:12 pm</td>
 										<td class='linked' test-id='23'>FailurePathTestAPI_TS04</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:31 pm</td>
+										<td>Mar 12, 2024 04:44:13 pm</td>
 										<td class='linked' test-id='30'>FailurePathTestAPI_TS05</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:32 pm</td>
+										<td>Mar 12, 2024 04:44:15 pm</td>
 										<td class='linked' test-id='37'>FailurePathTestAPI_TS06</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:34 pm</td>
+										<td>Mar 12, 2024 04:44:17 pm</td>
 										<td class='linked' test-id='44'>FailurePathTestAPI_TS07</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:35 pm</td>
+										<td>Mar 12, 2024 04:44:18 pm</td>
 										<td class='linked' test-id='51'>FailurePathTestAPI_TS08</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:37 pm</td>
+										<td>Mar 12, 2024 04:44:19 pm</td>
 										<td class='linked' test-id='58'>FailurePathTestAPI_TS09</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:38 pm</td>
+										<td>Mar 12, 2024 04:44:21 pm</td>
 										<td class='linked' test-id='65'>FailurePathTestAPI_TS10</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:40 pm</td>
+										<td>Mar 12, 2024 04:44:23 pm</td>
 										<td class='linked' test-id='72'>FailurePathTestAPI_TS11</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:41 pm</td>
+										<td>Mar 12, 2024 04:44:24 pm</td>
 										<td class='linked' test-id='79'>FailurePathTestAPI_TS12</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:43 pm</td>
+										<td>Mar 12, 2024 04:44:25 pm</td>
 										<td class='linked' test-id='86'>FailurePathTestAPI_TS13</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:44 pm</td>
+										<td>Mar 12, 2024 04:44:27 pm</td>
 										<td class='linked' test-id='93'>FailurePathTestAPI_TS14</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:46 pm</td>
+										<td>Mar 12, 2024 04:44:28 pm</td>
 										<td class='linked' test-id='100'>FailurePathTestAPI_TS15</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:48 pm</td>
+										<td>Mar 12, 2024 04:44:29 pm</td>
 										<td class='linked' test-id='107'>FailurePathTestAPI_TS16</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:49 pm</td>
+										<td>Mar 12, 2024 04:44:31 pm</td>
 										<td class='linked' test-id='114'>FailurePathTestAPI_TS17</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:51 pm</td>
+										<td>Mar 12, 2024 04:44:32 pm</td>
 										<td class='linked' test-id='121'>FailurePathTestAPI_TS18</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:52 pm</td>
+										<td>Mar 12, 2024 04:44:34 pm</td>
 										<td class='linked' test-id='128'>FailurePathTestAPI_TS19</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:54 pm</td>
+										<td>Mar 12, 2024 04:44:35 pm</td>
 										<td class='linked' test-id='135'>FailurePathTestAPI_TS20</td>
-										<td><span class='test-status fail'>fail</span></td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Mar 12, 2024 03:14:56 pm</td>
+										<td>Mar 12, 2024 04:44:37 pm</td>
 										<td class='linked' test-id='142'>FailurePathTestAPI_TS21</td>
-										<td><span class='test-status skip'>skip</span></td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Mar 12, 2024 04:44:38 pm</td>
+										<td class='linked' test-id='150'>FailurePathTestAPI_TS22</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Mar 12, 2024 04:44:40 pm</td>
+										<td class='linked' test-id='157'>FailurePathTestAPI_TS23</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Mar 12, 2024 04:44:42 pm</td>
+										<td class='linked' test-id='164'>FailurePathTestAPI_TS24</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@SuccessPathTestAPI</span>
+						<span class='category-status right'>
+						<span class='label pass'>9</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 9</span>
+							
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Mar 12, 2024 04:44:43 pm</td>
+										<td class='linked' test-id='171'>This feature has successful CRUD operations for booking API</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Mar 12, 2024 04:44:43 pm</td>
+										<td class='linked' test-id='172'>SuccessPathTestAPI_TS01</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Mar 12, 2024 04:44:44 pm</td>
+										<td class='linked' test-id='179'>SuccessPathTestAPI_TS02</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Mar 12, 2024 04:44:46 pm</td>
+										<td class='linked' test-id='187'>SuccessPathTestAPI_TS03</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Mar 12, 2024 04:44:47 pm</td>
+										<td class='linked' test-id='195'>SuccessPathTestAPI_TS04</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Mar 12, 2024 04:44:49 pm</td>
+										<td class='linked' test-id='202'>SuccessPathTestAPI_TS05</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Mar 12, 2024 04:44:50 pm</td>
+										<td class='linked' test-id='209'>SuccessPathTestAPI_TS06</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Mar 12, 2024 04:44:52 pm</td>
+										<td class='linked' test-id='216'>SuccessPathTestAPI_TS07</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Mar 12, 2024 04:44:53 pm</td>
+										<td class='linked' test-id='224'>SuccessPathTestAPI_TS08</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Mar 12, 2024 04:44:54 pm</td>
+										<td class='linked' test-id='232'>SuccessPathTestAPI_TS09</td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
 							</table>
@@ -896,71 +1295,7 @@
 		</div>
 	</div>
 </div>
-<!-- category view --><div id='exception-view' class='view hide'>
-	<section id='controls'>
-		<div class='controls grey lighten-4'>
-			<!-- search -->
-			<div class='chip transparent' alt='Search Tests' title='Search Tests'>
-				<a href="#" class='search-div'>
-				<i class='material-icons'>search</i> Search
-				</a>
-				<div class='input-field left hide'>
-					<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
-				</div>
-			</div>
-			<!-- search -->
-		</div>
-	</section>
-	<div class='subview-left left'>
-		<div class='view-summary'>
-			<ul id='exception-collection' class='exception-collection'>
-				<li class='exception displayed active'>
-					<div class='exception-heading'>
-						<span class='exception-name'>java.lang.AssertionError</span>
-						<span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
-					</div>
-					<div class='exception-content hide'>
-						<div class='exception-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Mar 12, 2024 03:14:56 pm</td>
-										<td class='linked' test-id='140'>Then The status code should be 404</td>
-										<td>
-											<textarea disabled class="code-block">java.lang.AssertionError: expected [404] but found [200]
-	at org.testng.Assert.fail(Assert.java:97)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:839)
-	at org.testng.Assert.assertEquals(Assert.java:849)
-	at common.Rest.validateStatusCode(Rest.java:499)
-	at stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(StepDefinition.java:312)
-	at ✽.The status code should be 404(file:///home/ravula/Documents/pranay.nextuple/nextuple-automation/integration-tests/src/test/java/features/FailurePathTestAPI.feature:123)
-</textarea>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div class='subview-right left'>
-		<div class='view-summary'>
-			<h5 class='exception-name'></h5>
-		</div>
-	</div>
-</div>
-<!-- exception view --><div id='dashboard-view' class='view hide'>
+<!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
 		<h5>Dashboard</h5>
 
@@ -968,37 +1303,37 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Features
-					<div class='panel-lead'>1</div>
+					<div class='panel-lead'>2</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>21</div>
+					<div class='panel-lead'>33</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>64</div>
+					<div class='panel-lead'>104</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Mar 12, 2024 03:14:21 pm</div>
+					<div class='panel-lead'>Mar 12, 2024 04:44:04 pm</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Mar 12, 2024 03:14:56 pm</div>
+			 		<div class='panel-lead'>Mar 12, 2024 04:44:56 pm</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 34s+970ms</div>
+					<div class='panel-lead'>0h 0m 51s+841ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -1015,11 +1350,20 @@
 						</tr>
 						<tr>
 							<td>@FailurePathTestAPI</td>
-							<td>19</td>
-							<td>1</td>
-							<td>1</td>
+							<td>24</td>
+							<td>0</td>
+							<td>0</td>
 							<td>
-									86.364%
+									96%
+							</td>
+						</tr>
+						<tr>
+							<td>@SuccessPathTestAPI</td>
+							<td>9</td>
+							<td>0</td>
+							<td>0</td>
+							<td>
+									90%
 							</td>
 						</tr>
 					</table>
@@ -1033,39 +1377,39 @@
 		<!-- container -->
 		<script>
 			var statusGroup = {
-                parentCount: 1,
-				passParent: 0,
-				failParent: 1,
+                parentCount: 2,
+				passParent: 2,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 1,
-				childCount: 21,
-				passChild: 19,
-				failChild: 1,
+				exceptionsParent: 0,
+				childCount: 33,
+				passChild: 33,
+				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
-				skipChild: 1,
+				skipChild: 0,
 				infoChild: 0,
 				debugChild: 0,
-				exceptionsChild: 2,
-				grandChildCount: 64,
-				passGrandChild: 59,
-				failGrandChild: 1,
+				exceptionsChild: 0,
+				grandChildCount: 104,
+				passGrandChild: 104,
+				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 4,
+				skipGrandChild: 0,
 				infoGrandChild: 0,
 				debugGrandChild: 0,
-				exceptionsGrandChild: 5,
+				exceptionsGrandChild: 0,
 			};
 		</script>
 		<script>
 			var timeline = {
-			        "This feature has CRUD operations for API":32.789
+			        "This feature has CRUD operations for API":36.936,"This feature has successful CRUD operations for booking API":12.579
 			};
 		</script>
 	

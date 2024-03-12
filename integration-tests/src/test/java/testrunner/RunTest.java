@@ -16,6 +16,6 @@ import org.testng.annotations.*;
     },
     features = {"src//test//java//features"},
     glue = {"stepdefinition"},
-    tags = "@FailurePathTestAPI")
+    tags = "@FailurePathTestAPI or @SuccessPathTestAPI")
 @Test
 public class RunTest extends AbstractTestNGCucumberTests {}

@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2024-03-12T09:44:22.141Z",
+        "start_timestamp": "2024-03-12T11:14:05.051Z",
         "before": [
           {
             "result": {
-              "duration": 1116821067,
+              "duration": 1251662887,
               "status": "passed"
             },
             "match": {
@@ -16,7 +16,7 @@
           },
           {
             "result": {
-              "duration": 538814,
+              "duration": 470158,
               "status": "passed"
             },
             "match": {
@@ -31,7 +31,7 @@
         "after": [
           {
             "result": {
-              "duration": 1639361,
+              "duration": 1389022,
               "status": "passed"
             },
             "match": {
@@ -44,7 +44,7 @@
         "steps": [
           {
             "result": {
-              "duration": 474477780,
+              "duration": 370599656,
               "status": "passed"
             },
             "line": 6,
@@ -56,7 +56,7 @@
           },
           {
             "result": {
-              "duration": 2658124790,
+              "duration": 2206292869,
               "status": "passed"
             },
             "line": 7,
@@ -74,7 +74,7 @@
           },
           {
             "result": {
-              "duration": 3773060,
+              "duration": 2197332,
               "status": "passed"
             },
             "line": 8,
@@ -98,11 +98,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-12T09:44:26.489Z",
+        "start_timestamp": "2024-03-12T11:14:08.953Z",
         "before": [
           {
             "result": {
-              "duration": 22733763,
+              "duration": 25106804,
               "status": "passed"
             },
             "match": {
@@ -111,7 +111,7 @@
           },
           {
             "result": {
-              "duration": 377724,
+              "duration": 333946,
               "status": "passed"
             },
             "match": {
@@ -126,7 +126,7 @@
         "after": [
           {
             "result": {
-              "duration": 349813,
+              "duration": 411068,
               "status": "passed"
             },
             "match": {
@@ -139,7 +139,7 @@
         "steps": [
           {
             "result": {
-              "duration": 81230422,
+              "duration": 62933399,
               "status": "passed"
             },
             "line": 12,
@@ -151,7 +151,7 @@
           },
           {
             "result": {
-              "duration": 1690560705,
+              "duration": 1567901785,
               "status": "passed"
             },
             "line": 13,
@@ -169,7 +169,7 @@
           },
           {
             "result": {
-              "duration": 308604,
+              "duration": 452798,
               "status": "passed"
             },
             "line": 14,
@@ -193,11 +193,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-12T09:44:28.295Z",
+        "start_timestamp": "2024-03-12T11:14:10.626Z",
         "before": [
           {
             "result": {
-              "duration": 19743174,
+              "duration": 21004326,
               "status": "passed"
             },
             "match": {
@@ -206,7 +206,7 @@
           },
           {
             "result": {
-              "duration": 219198,
+              "duration": 524296,
               "status": "passed"
             },
             "match": {
@@ -221,7 +221,7 @@
         "after": [
           {
             "result": {
-              "duration": 211675,
+              "duration": 355935,
               "status": "passed"
             },
             "match": {
@@ -234,7 +234,7 @@
         "steps": [
           {
             "result": {
-              "duration": 83004690,
+              "duration": 81869037,
               "status": "passed"
             },
             "line": 18,
@@ -246,7 +246,7 @@
           },
           {
             "result": {
-              "duration": 1259173616,
+              "duration": 1515279336,
               "status": "passed"
             },
             "line": 19,
@@ -264,7 +264,7 @@
           },
           {
             "result": {
-              "duration": 242821,
+              "duration": 1109405,
               "status": "passed"
             },
             "line": 20,
@@ -288,11 +288,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-12T09:44:29.668Z",
+        "start_timestamp": "2024-03-12T11:14:12.257Z",
         "before": [
           {
             "result": {
-              "duration": 25710963,
+              "duration": 18575722,
               "status": "passed"
             },
             "match": {
@@ -301,7 +301,7 @@
           },
           {
             "result": {
-              "duration": 370932,
+              "duration": 237793,
               "status": "passed"
             },
             "match": {
@@ -316,7 +316,7 @@
         "after": [
           {
             "result": {
-              "duration": 285886,
+              "duration": 391177,
               "status": "passed"
             },
             "match": {
@@ -329,7 +329,7 @@
         "steps": [
           {
             "result": {
-              "duration": 119696012,
+              "duration": 50865572,
               "status": "passed"
             },
             "line": 24,
@@ -341,7 +341,7 @@
           },
           {
             "result": {
-              "duration": 1540249762,
+              "duration": 1557197244,
               "status": "passed"
             },
             "line": 25,
@@ -359,7 +359,7 @@
           },
           {
             "result": {
-              "duration": 272887,
+              "duration": 384389,
               "status": "passed"
             },
             "line": 26,
@@ -383,11 +383,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-12T09:44:31.367Z",
+        "start_timestamp": "2024-03-12T11:14:13.894Z",
         "before": [
           {
             "result": {
-              "duration": 17837690,
+              "duration": 22214295,
               "status": "passed"
             },
             "match": {
@@ -396,7 +396,7 @@
           },
           {
             "result": {
-              "duration": 309920,
+              "duration": 213535,
               "status": "passed"
             },
             "match": {
@@ -404,14 +404,14 @@
             }
           }
         ],
-        "line": 29,
+        "line": 28,
         "name": "FailurePathTestAPI_TS05",
         "description": "  Description:This scenario verifies the request with invalid Content-type",
         "id": "this-feature-has-crud-operations-for-api;failurepathtestapi-ts05",
         "after": [
           {
             "result": {
-              "duration": 184874,
+              "duration": 196896,
               "status": "passed"
             },
             "match": {
@@ -424,10 +424,10 @@
         "steps": [
           {
             "result": {
-              "duration": 52794969,
+              "duration": 72138255,
               "status": "passed"
             },
-            "line": 31,
+            "line": 30,
             "name": "I want to build the request",
             "match": {
               "location": "stepdefinition.StepDefinition.iWantToBuildTheRequest()"
@@ -436,10 +436,10 @@
           },
           {
             "result": {
-              "duration": 1345751839,
+              "duration": 1340335512,
               "status": "passed"
             },
-            "line": 32,
+            "line": 31,
             "name": "I submit the \"POST\" request",
             "match": {
               "arguments": [
@@ -454,10 +454,10 @@
           },
           {
             "result": {
-              "duration": 654829,
+              "duration": 604543,
               "status": "passed"
             },
-            "line": 33,
+            "line": 32,
             "name": "The status code should be 500",
             "match": {
               "arguments": [
@@ -478,11 +478,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-12T09:44:32.792Z",
+        "start_timestamp": "2024-03-12T11:14:15.338Z",
         "before": [
           {
             "result": {
-              "duration": 17740204,
+              "duration": 18397085,
               "status": "passed"
             },
             "match": {
@@ -491,7 +491,7 @@
           },
           {
             "result": {
-              "duration": 268731,
+              "duration": 219642,
               "status": "passed"
             },
             "match": {
@@ -499,14 +499,14 @@
             }
           }
         ],
-        "line": 35,
+        "line": 34,
         "name": "FailurePathTestAPI_TS06",
         "description": "  Description:This scenario verifies the request with invalid Deposit-paid",
         "id": "this-feature-has-crud-operations-for-api;failurepathtestapi-ts06",
         "after": [
           {
             "result": {
-              "duration": 381439,
+              "duration": 286327,
               "status": "passed"
             },
             "match": {
@@ -519,10 +519,10 @@
         "steps": [
           {
             "result": {
-              "duration": 77108135,
+              "duration": 60443467,
               "status": "passed"
             },
-            "line": 37,
+            "line": 36,
             "name": "I want to build the request with body",
             "match": {
               "location": "stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"
@@ -531,10 +531,10 @@
           },
           {
             "result": {
-              "duration": 1421640086,
+              "duration": 1540359457,
               "status": "passed"
             },
-            "line": 38,
+            "line": 37,
             "name": "I submit the \"POST\" request",
             "match": {
               "arguments": [
@@ -549,10 +549,10 @@
           },
           {
             "result": {
-              "duration": 375442,
+              "duration": 321791,
               "status": "passed"
             },
-            "line": 39,
+            "line": 38,
             "name": "The status code should be 200",
             "match": {
               "arguments": [
@@ -573,11 +573,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-12T09:44:34.326Z",
+        "start_timestamp": "2024-03-12T11:14:16.969Z",
         "before": [
           {
             "result": {
-              "duration": 17312180,
+              "duration": 43165104,
               "status": "passed"
             },
             "match": {
@@ -586,7 +586,7 @@
           },
           {
             "result": {
-              "duration": 195695,
+              "duration": 326364,
               "status": "passed"
             },
             "match": {
@@ -594,14 +594,14 @@
             }
           }
         ],
-        "line": 41,
+        "line": 40,
         "name": "FailurePathTestAPI_TS07",
         "description": "  Description:This scenario verifies the request with invalid First-name type",
         "id": "this-feature-has-crud-operations-for-api;failurepathtestapi-ts07",
         "after": [
           {
             "result": {
-              "duration": 385746,
+              "duration": 295395,
               "status": "passed"
             },
             "match": {
@@ -614,10 +614,10 @@
         "steps": [
           {
             "result": {
-              "duration": 69978662,
+              "duration": 54555559,
               "status": "passed"
             },
-            "line": 43,
+            "line": 42,
             "name": "I want to build the request with body",
             "match": {
               "location": "stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"
@@ -626,10 +626,10 @@
           },
           {
             "result": {
-              "duration": 1241440221,
+              "duration": 1288307912,
               "status": "passed"
             },
-            "line": 44,
+            "line": 43,
             "name": "I submit the \"POST\" request",
             "match": {
               "arguments": [
@@ -644,10 +644,10 @@
           },
           {
             "result": {
-              "duration": 375987,
+              "duration": 308201,
               "status": "passed"
             },
-            "line": 45,
+            "line": 44,
             "name": "The status code should be 500",
             "match": {
               "arguments": [
@@ -668,11 +668,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-12T09:44:35.667Z",
+        "start_timestamp": "2024-03-12T11:14:18.364Z",
         "before": [
           {
             "result": {
-              "duration": 31122537,
+              "duration": 23324611,
               "status": "passed"
             },
             "match": {
@@ -681,7 +681,7 @@
           },
           {
             "result": {
-              "duration": 341588,
+              "duration": 214248,
               "status": "passed"
             },
             "match": {
@@ -689,14 +689,14 @@
             }
           }
         ],
-        "line": 47,
+        "line": 46,
         "name": "FailurePathTestAPI_TS08",
         "description": "  Description:This scenario verifies the request with invalid Last-name as null",
         "id": "this-feature-has-crud-operations-for-api;failurepathtestapi-ts08",
         "after": [
           {
             "result": {
-              "duration": 297440,
+              "duration": 383858,
               "status": "passed"
             },
             "match": {
@@ -709,10 +709,10 @@
         "steps": [
           {
             "result": {
-              "duration": 50592086,
+              "duration": 62518994,
               "status": "passed"
             },
-            "line": 49,
+            "line": 48,
             "name": "I want to build the request with body",
             "match": {
               "location": "stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"
@@ -721,10 +721,10 @@
           },
           {
             "result": {
-              "duration": 1437488950,
+              "duration": 1474031855,
               "status": "passed"
             },
-            "line": 50,
+            "line": 49,
             "name": "I submit the \"POST\" request",
             "match": {
               "arguments": [
@@ -739,10 +739,10 @@
           },
           {
             "result": {
-              "duration": 432741,
+              "duration": 485387,
               "status": "passed"
             },
-            "line": 51,
+            "line": 50,
             "name": "The status code should be 500",
             "match": {
               "arguments": [
@@ -763,11 +763,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-12T09:44:37.196Z",
+        "start_timestamp": "2024-03-12T11:14:19.932Z",
         "before": [
           {
             "result": {
-              "duration": 18263013,
+              "duration": 15122328,
               "status": "passed"
             },
             "match": {
@@ -776,7 +776,7 @@
           },
           {
             "result": {
-              "duration": 161609,
+              "duration": 188538,
               "status": "passed"
             },
             "match": {
@@ -784,14 +784,14 @@
             }
           }
         ],
-        "line": 53,
+        "line": 52,
         "name": "FailurePathTestAPI_TS09",
         "description": "  Description:This scenario verifies the request with invalid Total-price type",
         "id": "this-feature-has-crud-operations-for-api;failurepathtestapi-ts09",
         "after": [
           {
             "result": {
-              "duration": 174316,
+              "duration": 281754,
               "status": "passed"
             },
             "match": {
@@ -804,10 +804,10 @@
         "steps": [
           {
             "result": {
-              "duration": 44987708,
+              "duration": 43484421,
               "status": "passed"
             },
-            "line": 55,
+            "line": 54,
             "name": "I want to build the request with body",
             "match": {
               "location": "stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"
@@ -816,10 +816,10 @@
           },
           {
             "result": {
-              "duration": 1380116503,
+              "duration": 1467305553,
               "status": "passed"
             },
-            "line": 56,
+            "line": 55,
             "name": "I submit the \"POST\" request",
             "match": {
               "arguments": [
@@ -834,10 +834,10 @@
           },
           {
             "result": {
-              "duration": 602558,
+              "duration": 430608,
               "status": "passed"
             },
-            "line": 57,
+            "line": 56,
             "name": "The status code should be 200",
             "match": {
               "arguments": [
@@ -858,11 +858,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-12T09:44:38.651Z",
+        "start_timestamp": "2024-03-12T11:14:21.466Z",
         "before": [
           {
             "result": {
-              "duration": 17055593,
+              "duration": 14670867,
               "status": "passed"
             },
             "match": {
@@ -871,7 +871,7 @@
           },
           {
             "result": {
-              "duration": 507325,
+              "duration": 198568,
               "status": "passed"
             },
             "match": {
@@ -879,14 +879,14 @@
             }
           }
         ],
-        "line": 59,
+        "line": 58,
         "name": "FailurePathTestAPI_TS10",
         "description": "  Description:This scenario verifies the request without Accept",
         "id": "this-feature-has-crud-operations-for-api;failurepathtestapi-ts10",
         "after": [
           {
             "result": {
-              "duration": 300024,
+              "duration": 320910,
               "status": "passed"
             },
             "match": {
@@ -899,10 +899,10 @@
         "steps": [
           {
             "result": {
-              "duration": 46661696,
+              "duration": 40545282,
               "status": "passed"
             },
-            "line": 61,
+            "line": 60,
             "name": "I want to build the request with body",
             "match": {
               "location": "stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"
@@ -911,10 +911,10 @@
           },
           {
             "result": {
-              "duration": 1440517963,
+              "duration": 1474975672,
               "status": "passed"
             },
-            "line": 62,
+            "line": 61,
             "name": "I submit the \"POST\" request",
             "match": {
               "arguments": [
@@ -929,10 +929,10 @@
           },
           {
             "result": {
-              "duration": 355013,
+              "duration": 434540,
               "status": "passed"
             },
-            "line": 63,
+            "line": 62,
             "name": "The status code should be 200",
             "match": {
               "arguments": [
@@ -953,11 +953,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-12T09:44:40.164Z",
+        "start_timestamp": "2024-03-12T11:14:23.004Z",
         "before": [
           {
             "result": {
-              "duration": 18068291,
+              "duration": 14504564,
               "status": "passed"
             },
             "match": {
@@ -966,7 +966,7 @@
           },
           {
             "result": {
-              "duration": 207311,
+              "duration": 178124,
               "status": "passed"
             },
             "match": {
@@ -974,14 +974,14 @@
             }
           }
         ],
-        "line": 65,
+        "line": 64,
         "name": "FailurePathTestAPI_TS11",
         "description": "  Description:This scenario verifies the request without Additional needs",
         "id": "this-feature-has-crud-operations-for-api;failurepathtestapi-ts11",
         "after": [
           {
             "result": {
-              "duration": 699692,
+              "duration": 309822,
               "status": "passed"
             },
             "match": {
@@ -994,10 +994,10 @@
         "steps": [
           {
             "result": {
-              "duration": 45182721,
+              "duration": 42256042,
               "status": "passed"
             },
-            "line": 67,
+            "line": 66,
             "name": "I want to build the request with body",
             "match": {
               "location": "stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"
@@ -1006,10 +1006,10 @@
           },
           {
             "result": {
-              "duration": 1400302864,
+              "duration": 1265997737,
               "status": "passed"
             },
-            "line": 68,
+            "line": 67,
             "name": "I submit the \"POST\" request",
             "match": {
               "arguments": [
@@ -1024,10 +1024,10 @@
           },
           {
             "result": {
-              "duration": 478299,
+              "duration": 441450,
               "status": "passed"
             },
-            "line": 69,
+            "line": 68,
             "name": "The status code should be 200",
             "match": {
               "arguments": [
@@ -1048,11 +1048,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-12T09:44:41.642Z",
+        "start_timestamp": "2024-03-12T11:14:24.339Z",
         "before": [
           {
             "result": {
-              "duration": 24328078,
+              "duration": 14203289,
               "status": "passed"
             },
             "match": {
@@ -1061,7 +1061,7 @@
           },
           {
             "result": {
-              "duration": 253987,
+              "duration": 165966,
               "status": "passed"
             },
             "match": {
@@ -1069,14 +1069,14 @@
             }
           }
         ],
-        "line": 71,
+        "line": 70,
         "name": "FailurePathTestAPI_TS12",
         "description": "  Description:This scenario verifies the request without Body",
         "id": "this-feature-has-crud-operations-for-api;failurepathtestapi-ts12",
         "after": [
           {
             "result": {
-              "duration": 358708,
+              "duration": 122321,
               "status": "passed"
             },
             "match": {
@@ -1089,10 +1089,10 @@
         "steps": [
           {
             "result": {
-              "duration": 65412993,
+              "duration": 53684060,
               "status": "passed"
             },
-            "line": 73,
+            "line": 72,
             "name": "I want to build the request",
             "match": {
               "location": "stepdefinition.StepDefinition.iWantToBuildTheRequest()"
@@ -1101,10 +1101,10 @@
           },
           {
             "result": {
-              "duration": 1525485763,
+              "duration": 1457329759,
               "status": "passed"
             },
-            "line": 74,
+            "line": 73,
             "name": "I submit the \"POST\" request",
             "match": {
               "arguments": [
@@ -1119,10 +1119,10 @@
           },
           {
             "result": {
-              "duration": 642485,
+              "duration": 353912,
               "status": "passed"
             },
-            "line": 75,
+            "line": 74,
             "name": "The status code should be 500",
             "match": {
               "arguments": [
@@ -1143,11 +1143,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-12T09:44:43.268Z",
+        "start_timestamp": "2024-03-12T11:14:25.870Z",
         "before": [
           {
             "result": {
-              "duration": 17453832,
+              "duration": 13679438,
               "status": "passed"
             },
             "match": {
@@ -1156,7 +1156,7 @@
           },
           {
             "result": {
-              "duration": 238194,
+              "duration": 205536,
               "status": "passed"
             },
             "match": {
@@ -1164,14 +1164,14 @@
             }
           }
         ],
-        "line": 77,
+        "line": 76,
         "name": "FailurePathTestAPI_TS13",
         "description": "  Description:This scenario verifies the request without Booking-dates fields",
         "id": "this-feature-has-crud-operations-for-api;failurepathtestapi-ts13",
         "after": [
           {
             "result": {
-              "duration": 945270,
+              "duration": 174034,
               "status": "passed"
             },
             "match": {
@@ -1184,10 +1184,10 @@
         "steps": [
           {
             "result": {
-              "duration": 73365701,
+              "duration": 69821041,
               "status": "passed"
             },
-            "line": 79,
+            "line": 78,
             "name": "I want to build the request with body",
             "match": {
               "location": "stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"
@@ -1196,10 +1196,10 @@
           },
           {
             "result": {
-              "duration": 1344460740,
+              "duration": 1340898196,
               "status": "passed"
             },
-            "line": 80,
+            "line": 79,
             "name": "I submit the \"POST\" request",
             "match": {
               "arguments": [
@@ -1214,10 +1214,10 @@
           },
           {
             "result": {
-              "duration": 1213153,
+              "duration": 238510,
               "status": "passed"
             },
-            "line": 81,
+            "line": 80,
             "name": "The status code should be 500",
             "match": {
               "arguments": [
@@ -1238,11 +1238,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-12T09:44:44.730Z",
+        "start_timestamp": "2024-03-12T11:14:27.302Z",
         "before": [
           {
             "result": {
-              "duration": 51636131,
+              "duration": 30002299,
               "status": "passed"
             },
             "match": {
@@ -1251,7 +1251,7 @@
           },
           {
             "result": {
-              "duration": 348154,
+              "duration": 229829,
               "status": "passed"
             },
             "match": {
@@ -1259,14 +1259,14 @@
             }
           }
         ],
-        "line": 83,
+        "line": 82,
         "name": "FailurePathTestAPI_TS14",
         "description": "  Description:This scenario verifies the request without Content-type",
         "id": "this-feature-has-crud-operations-for-api;failurepathtestapi-ts14",
         "after": [
           {
             "result": {
-              "duration": 412119,
+              "duration": 390744,
               "status": "passed"
             },
             "match": {
@@ -1279,10 +1279,10 @@
         "steps": [
           {
             "result": {
-              "duration": 54447179,
+              "duration": 42368340,
               "status": "passed"
             },
-            "line": 85,
+            "line": 84,
             "name": "I want to build the request with body",
             "match": {
               "location": "stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"
@@ -1291,10 +1291,10 @@
           },
           {
             "result": {
-              "duration": 1668350223,
+              "duration": 1175207530,
               "status": "passed"
             },
-            "line": 86,
+            "line": 85,
             "name": "I submit the \"POST\" request",
             "match": {
               "arguments": [
@@ -1309,10 +1309,10 @@
           },
           {
             "result": {
-              "duration": 557312,
+              "duration": 774881,
               "status": "passed"
             },
-            "line": 87,
+            "line": 86,
             "name": "The status code should be 500",
             "match": {
               "arguments": [
@@ -1333,11 +1333,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-12T09:44:46.515Z",
+        "start_timestamp": "2024-03-12T11:14:28.558Z",
         "before": [
           {
             "result": {
-              "duration": 17213567,
+              "duration": 13384108,
               "status": "passed"
             },
             "match": {
@@ -1346,7 +1346,7 @@
           },
           {
             "result": {
-              "duration": 150332,
+              "duration": 193497,
               "status": "passed"
             },
             "match": {
@@ -1354,14 +1354,14 @@
             }
           }
         ],
-        "line": 89,
+        "line": 88,
         "name": "FailurePathTestAPI_TS15",
         "description": "  Description:This scenario verifies the request without Deposit-paid",
         "id": "this-feature-has-crud-operations-for-api;failurepathtestapi-ts15",
         "after": [
           {
             "result": {
-              "duration": 288625,
+              "duration": 382590,
               "status": "passed"
             },
             "match": {
@@ -1374,10 +1374,10 @@
         "steps": [
           {
             "result": {
-              "duration": 37828611,
+              "duration": 54225484,
               "status": "passed"
             },
-            "line": 91,
+            "line": 90,
             "name": "I want to build the request with body",
             "match": {
               "location": "stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"
@@ -1386,10 +1386,10 @@
           },
           {
             "result": {
-              "duration": 1573599315,
+              "duration": 1332954077,
               "status": "passed"
             },
-            "line": 92,
+            "line": 91,
             "name": "I submit the \"POST\" request",
             "match": {
               "arguments": [
@@ -1404,10 +1404,10 @@
           },
           {
             "result": {
-              "duration": 416655,
+              "duration": 506181,
               "status": "passed"
             },
-            "line": 93,
+            "line": 92,
             "name": "The status code should be 500",
             "match": {
               "arguments": [
@@ -1428,11 +1428,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-12T09:44:48.154Z",
+        "start_timestamp": "2024-03-12T11:14:29.969Z",
         "before": [
           {
             "result": {
-              "duration": 14287773,
+              "duration": 14342667,
               "status": "passed"
             },
             "match": {
@@ -1441,7 +1441,7 @@
           },
           {
             "result": {
-              "duration": 214085,
+              "duration": 162280,
               "status": "passed"
             },
             "match": {
@@ -1449,14 +1449,14 @@
             }
           }
         ],
-        "line": 95,
+        "line": 94,
         "name": "FailurePathTestAPI_TS16",
         "description": "  Description:This scenario verifies the request without First-name",
         "id": "this-feature-has-crud-operations-for-api;failurepathtestapi-ts16",
         "after": [
           {
             "result": {
-              "duration": 543689,
+              "duration": 288787,
               "status": "passed"
             },
             "match": {
@@ -1469,10 +1469,10 @@
         "steps": [
           {
             "result": {
-              "duration": 40972920,
+              "duration": 37361830,
               "status": "passed"
             },
-            "line": 97,
+            "line": 96,
             "name": "I want to build the request with body",
             "match": {
               "location": "stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"
@@ -1481,10 +1481,10 @@
           },
           {
             "result": {
-              "duration": 1399144274,
+              "duration": 1364384603,
               "status": "passed"
             },
-            "line": 98,
+            "line": 97,
             "name": "I submit the \"POST\" request",
             "match": {
               "arguments": [
@@ -1499,10 +1499,10 @@
           },
           {
             "result": {
-              "duration": 513955,
+              "duration": 588595,
               "status": "passed"
             },
-            "line": 99,
+            "line": 98,
             "name": "The status code should be 500",
             "match": {
               "arguments": [
@@ -1523,11 +1523,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-12T09:44:49.624Z",
+        "start_timestamp": "2024-03-12T11:14:31.396Z",
         "before": [
           {
             "result": {
-              "duration": 20346170,
+              "duration": 14145715,
               "status": "passed"
             },
             "match": {
@@ -1536,7 +1536,7 @@
           },
           {
             "result": {
-              "duration": 208586,
+              "duration": 150463,
               "status": "passed"
             },
             "match": {
@@ -1544,14 +1544,14 @@
             }
           }
         ],
-        "line": 101,
+        "line": 100,
         "name": "FailurePathTestAPI_TS17",
         "description": "  Description:This scenario verifies the request without Last-name",
         "id": "this-feature-has-crud-operations-for-api;failurepathtestapi-ts17",
         "after": [
           {
             "result": {
-              "duration": 262019,
+              "duration": 340157,
               "status": "passed"
             },
             "match": {
@@ -1564,10 +1564,10 @@
         "steps": [
           {
             "result": {
-              "duration": 47786234,
+              "duration": 38534429,
               "status": "passed"
             },
-            "line": 103,
+            "line": 102,
             "name": "I want to build the request with body",
             "match": {
               "location": "stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"
@@ -1576,10 +1576,10 @@
           },
           {
             "result": {
-              "duration": 1529892581,
+              "duration": 1190416529,
               "status": "passed"
             },
-            "line": 104,
+            "line": 103,
             "name": "I submit the \"POST\" request",
             "match": {
               "arguments": [
@@ -1594,10 +1594,10 @@
           },
           {
             "result": {
-              "duration": 448537,
+              "duration": 469799,
               "status": "passed"
             },
-            "line": 105,
+            "line": 104,
             "name": "The status code should be 500",
             "match": {
               "arguments": [
@@ -1618,11 +1618,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-12T09:44:51.233Z",
+        "start_timestamp": "2024-03-12T11:14:32.652Z",
         "before": [
           {
             "result": {
-              "duration": 14747142,
+              "duration": 16969177,
               "status": "passed"
             },
             "match": {
@@ -1631,7 +1631,7 @@
           },
           {
             "result": {
-              "duration": 150375,
+              "duration": 149453,
               "status": "passed"
             },
             "match": {
@@ -1639,14 +1639,14 @@
             }
           }
         ],
-        "line": 107,
+        "line": 106,
         "name": "FailurePathTestAPI_TS18",
         "description": "  Description:This scenario verifies the request without Total-price",
         "id": "this-feature-has-crud-operations-for-api;failurepathtestapi-ts18",
         "after": [
           {
             "result": {
-              "duration": 277041,
+              "duration": 165535,
               "status": "passed"
             },
             "match": {
@@ -1659,10 +1659,10 @@
         "steps": [
           {
             "result": {
-              "duration": 49587539,
+              "duration": 39390637,
               "status": "passed"
             },
-            "line": 109,
+            "line": 108,
             "name": "I want to build the request with body",
             "match": {
               "location": "stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"
@@ -1671,10 +1671,10 @@
           },
           {
             "result": {
-              "duration": 1461827770,
+              "duration": 1394609914,
               "status": "passed"
             },
-            "line": 110,
+            "line": 109,
             "name": "I submit the \"POST\" request",
             "match": {
               "arguments": [
@@ -1689,10 +1689,10 @@
           },
           {
             "result": {
-              "duration": 589829,
+              "duration": 228576,
               "status": "passed"
             },
-            "line": 111,
+            "line": 110,
             "name": "The status code should be 500",
             "match": {
               "arguments": [
@@ -1713,11 +1713,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-12T09:44:52.770Z",
+        "start_timestamp": "2024-03-12T11:14:34.109Z",
         "before": [
           {
             "result": {
-              "duration": 13021413,
+              "duration": 14466447,
               "status": "passed"
             },
             "match": {
@@ -1726,7 +1726,7 @@
           },
           {
             "result": {
-              "duration": 171916,
+              "duration": 408437,
               "status": "passed"
             },
             "match": {
@@ -1734,14 +1734,14 @@
             }
           }
         ],
-        "line": 113,
+        "line": 112,
         "name": "FailurePathTestAPI_TS19",
         "description": "  Description:This scenario verifies the request with invalid ID",
         "id": "this-feature-has-crud-operations-for-api;failurepathtestapi-ts19",
         "after": [
           {
             "result": {
-              "duration": 313524,
+              "duration": 279079,
               "status": "passed"
             },
             "match": {
@@ -1754,10 +1754,10 @@
         "steps": [
           {
             "result": {
-              "duration": 68415170,
+              "duration": 53451536,
               "status": "passed"
             },
-            "line": 115,
+            "line": 114,
             "name": "I want to build the request",
             "match": {
               "location": "stepdefinition.StepDefinition.iWantToBuildTheRequest()"
@@ -1766,10 +1766,10 @@
           },
           {
             "result": {
-              "duration": 1436065899,
+              "duration": 1405792756,
               "status": "passed"
             },
-            "line": 116,
+            "line": 115,
             "name": "I submit the \"GET\" request",
             "match": {
               "arguments": [
@@ -1784,10 +1784,10 @@
           },
           {
             "result": {
-              "duration": 546122,
+              "duration": 561765,
               "status": "passed"
             },
-            "line": 117,
+            "line": 116,
             "name": "The status code should be 404",
             "match": {
               "arguments": [
@@ -1808,11 +1808,11 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-12T09:44:54.298Z",
+        "start_timestamp": "2024-03-12T11:14:35.598Z",
         "before": [
           {
             "result": {
-              "duration": 14705692,
+              "duration": 13868201,
               "status": "passed"
             },
             "match": {
@@ -1821,7 +1821,7 @@
           },
           {
             "result": {
-              "duration": 206985,
+              "duration": 152500,
               "status": "passed"
             },
             "match": {
@@ -1829,14 +1829,14 @@
             }
           }
         ],
-        "line": 119,
+        "line": 118,
         "name": "FailurePathTestAPI_TS20",
         "description": "  Description:This scenario verifies the fetching with reversed booking dates",
         "id": "this-feature-has-crud-operations-for-api;failurepathtestapi-ts20",
         "after": [
           {
             "result": {
-              "duration": 487207,
+              "duration": 300466,
               "status": "passed"
             },
             "match": {
@@ -1849,10 +1849,10 @@
         "steps": [
           {
             "result": {
-              "duration": 40743524,
+              "duration": 38681802,
               "status": "passed"
             },
-            "line": 121,
+            "line": 120,
             "name": "I want to build the request",
             "match": {
               "location": "stepdefinition.StepDefinition.iWantToBuildTheRequest()"
@@ -1861,10 +1861,10 @@
           },
           {
             "result": {
-              "duration": 1775828792,
+              "duration": 1476255267,
               "status": "passed"
             },
-            "line": 122,
+            "line": 121,
             "name": "I submit the \"GET\" request",
             "match": {
               "arguments": [
@@ -1879,16 +1879,15 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected [404] but found [200]\n\tat org.testng.Assert.fail(Assert.java:97)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:839)\n\tat org.testng.Assert.assertEquals(Assert.java:849)\n\tat common.Rest.validateStatusCode(Rest.java:499)\n\tat stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(StepDefinition.java:312)\n\tat ✽.The status code should be 404(file:///home/ravula/Documents/pranay.nextuple/nextuple-automation/integration-tests/src/test/java/features/FailurePathTestAPI.feature:123)\n",
-              "duration": 2460664,
-              "status": "failed"
+              "duration": 460445,
+              "status": "passed"
             },
-            "line": 123,
-            "name": "The status code should be 404",
+            "line": 122,
+            "name": "The status code should be 200",
             "match": {
               "arguments": [
                 {
-                  "val": "404",
+                  "val": "200",
                   "offset": 26
                 }
               ],
@@ -1904,13 +1903,12 @@
         ]
       },
       {
-        "start_timestamp": "2024-03-12T09:44:56.145Z",
+        "start_timestamp": "2024-03-12T11:14:37.134Z",
         "before": [
           {
             "result": {
-              "error_message": "org.opentest4j.TestAbortedException: Assumption failed: assumption is not true\n\tat org.junit.jupiter.api.Assumptions.throwTestAbortedException(Assumptions.java:256)\n\tat org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:115)\n\tat org.junit.jupiter.api.Assumptions.assumeTrue(Assumptions.java:66)\n\tat stepdefinition.StepDefinition.findFailedScenarioName(StepDefinition.java:183)\n\tat stepdefinition.StepDefinition.before(StepDefinition.java:176)\n",
-              "duration": 32062677,
-              "status": "skipped"
+              "duration": 21800509,
+              "status": "passed"
             },
             "match": {
               "location": "stepdefinition.StepDefinition.before(io.cucumber.java.Scenario)"
@@ -1918,7 +1916,7 @@
           },
           {
             "result": {
-              "duration": 253604,
+              "duration": 157718,
               "status": "passed"
             },
             "match": {
@@ -1926,14 +1924,14 @@
             }
           }
         ],
-        "line": 125,
+        "line": 124,
         "name": "FailurePathTestAPI_TS21",
         "description": "  Description:This scenario verifies \u0026 provides creation of a booking",
         "id": "this-feature-has-crud-operations-for-api;failurepathtestapi-ts21",
         "after": [
           {
             "result": {
-              "duration": 262251,
+              "duration": 174104,
               "status": "passed"
             },
             "match": {
@@ -1946,10 +1944,10 @@
         "steps": [
           {
             "result": {
-              "duration": 176372,
-              "status": "skipped"
+              "duration": 56370695,
+              "status": "passed"
             },
-            "line": 127,
+            "line": 126,
             "name": "I want to build the request with body",
             "match": {
               "location": "stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"
@@ -1958,10 +1956,10 @@
           },
           {
             "result": {
-              "duration": 145381,
-              "status": "skipped"
+              "duration": 1347442736,
+              "status": "passed"
             },
-            "line": 128,
+            "line": 127,
             "name": "I submit the \"POST\" request",
             "match": {
               "arguments": [
@@ -1976,10 +1974,10 @@
           },
           {
             "result": {
-              "duration": 142530,
-              "status": "skipped"
+              "duration": 340259,
+              "status": "passed"
             },
-            "line": 129,
+            "line": 128,
             "name": "The status code should be 200",
             "match": {
               "arguments": [
@@ -1994,15 +1992,300 @@
           },
           {
             "result": {
-              "duration": 708369,
-              "status": "skipped"
+              "duration": 99747164,
+              "status": "passed"
             },
-            "line": 130,
+            "line": 129,
             "name": "The response body should be as expected",
             "match": {
               "location": "stepdefinition.StepDefinition.theResponseBodyShouldBeAsExpected()"
             },
             "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FailurePathTestAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-12T11:14:38.666Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13893020,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 266305,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.expectToFail()"
+            }
+          }
+        ],
+        "line": 131,
+        "name": "FailurePathTestAPI_TS22",
+        "description": "  Description:This scenario verifies the request with reversed booking dates",
+        "id": "this-feature-has-crud-operations-for-api;failurepathtestapi-ts22",
+        "after": [
+          {
+            "result": {
+              "duration": 686874,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 41391908,
+              "status": "passed"
+            },
+            "line": 133,
+            "name": "I want to build the request with body",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1886064406,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "I submit the \"PATCH\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PATCH\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 461421,
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "The status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FailurePathTestAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-12T11:14:40.615Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13701823,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 202741,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.expectToFail()"
+            }
+          }
+        ],
+        "line": 137,
+        "name": "FailurePathTestAPI_TS23",
+        "description": "  Description:This scenario verifies the request with invalid Authorization",
+        "id": "this-feature-has-crud-operations-for-api;failurepathtestapi-ts23",
+        "after": [
+          {
+            "result": {
+              "duration": 289788,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 55432872,
+              "status": "passed"
+            },
+            "line": 139,
+            "name": "I want to build the request",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iWantToBuildTheRequest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1358168590,
+              "status": "passed"
+            },
+            "line": 140,
+            "name": "I submit the \"DELETE\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 511227,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "The status code should be 403",
+            "match": {
+              "arguments": [
+                {
+                  "val": "403",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FailurePathTestAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-12T11:14:42.053Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15493094,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 149361,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.expectToFail()"
+            }
+          }
+        ],
+        "line": 143,
+        "name": "FailurePathTestAPI_TS24",
+        "description": "  Description:This scenario verifies the request with invalid Cookie",
+        "id": "this-feature-has-crud-operations-for-api;failurepathtestapi-ts24",
+        "after": [
+          {
+            "result": {
+              "duration": 226808,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 55099962,
+              "status": "passed"
+            },
+            "line": 145,
+            "name": "I want to build the request",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iWantToBuildTheRequest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1251791520,
+              "status": "passed"
+            },
+            "line": 146,
+            "name": "I submit the \"DELETE\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 354835,
+              "status": "passed"
+            },
+            "line": 147,
+            "name": "The status code should be 403",
+            "match": {
+              "arguments": [
+                {
+                  "val": "403",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
@@ -2020,6 +2303,929 @@
     "tags": [
       {
         "name": "@FailurePathTestAPI",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-03-12T11:14:43.383Z",
+        "before": [
+          {
+            "result": {
+              "duration": 46695740,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 193000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.expectToFail()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "SuccessPathTestAPI_TS01",
+        "description": "  Description: This scenario verifies the existence of the server",
+        "id": "this-feature-has-successful-crud-operations-for-booking-api;successpathtestapi-ts01",
+        "after": [
+          {
+            "result": {
+              "duration": 216091,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35949212,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I want to build the request",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iWantToBuildTheRequest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1338844169,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I submit the \"GET\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 368805,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The status code should be 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SuccessPathTestAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-12T11:14:44.816Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13309409,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 147095,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.expectToFail()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "SuccessPathTestAPI_TS02",
+        "description": "  Description: This scenario verifies creation of a booking",
+        "id": "this-feature-has-successful-crud-operations-for-booking-api;successpathtestapi-ts02",
+        "after": [
+          {
+            "result": {
+              "duration": 518874,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 53479565,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I want to build the request with body",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1561547649,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I submit the \"POST\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 376474,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35703168,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The response body should be as expected",
+            "match": {
+              "location": "stepdefinition.StepDefinition.theResponseBodyShouldBeAsExpected()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SuccessPathTestAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-12T11:14:46.489Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13686235,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 170319,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.expectToFail()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "SuccessPathTestAPI_TS03",
+        "description": "  Description: This scenario verifies fetching of previously created booking",
+        "id": "this-feature-has-successful-crud-operations-for-booking-api;successpathtestapi-ts03",
+        "after": [
+          {
+            "result": {
+              "duration": 311693,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36027086,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I want to build the request",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iWantToBuildTheRequest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1131131221,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I submit the \"GET\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 497590,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39040208,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The response body should be as expected",
+            "match": {
+              "location": "stepdefinition.StepDefinition.theResponseBodyShouldBeAsExpected()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SuccessPathTestAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-12T11:14:47.722Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17570975,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 228691,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.expectToFail()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "SuccessPathTestAPI_TS04",
+        "description": "  Description: This scenario verifies fetching of all the bookings",
+        "id": "this-feature-has-successful-crud-operations-for-booking-api;successpathtestapi-ts04",
+        "after": [
+          {
+            "result": {
+              "duration": 205453,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33563750,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I want to build the request",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iWantToBuildTheRequest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1538738202,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I submit the \"GET\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 335776,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SuccessPathTestAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-12T11:14:49.321Z",
+        "before": [
+          {
+            "result": {
+              "duration": 21634918,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 377418,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.expectToFail()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "SuccessPathTestAPI_TS05",
+        "description": "  Description: This scenario verifies fetching of all the bookings using first name \u0026 last name",
+        "id": "this-feature-has-successful-crud-operations-for-booking-api;successpathtestapi-ts05",
+        "after": [
+          {
+            "result": {
+              "duration": 696028,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 68611740,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I want to build the request",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iWantToBuildTheRequest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1436692880,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I submit the \"GET\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 769667,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "The status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SuccessPathTestAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-12T11:14:50.863Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14139051,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 134617,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.expectToFail()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "SuccessPathTestAPI_TS06",
+        "description": "  Description: This scenario verifies fetching of all the bookings using booking dates",
+        "id": "this-feature-has-successful-crud-operations-for-booking-api;successpathtestapi-ts06",
+        "after": [
+          {
+            "result": {
+              "duration": 237192,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33023247,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I want to build the request",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iWantToBuildTheRequest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1425475603,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I submit the \"GET\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 856105,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "The status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SuccessPathTestAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-12T11:14:52.345Z",
+        "before": [
+          {
+            "result": {
+              "duration": 23379816,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 182997,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.expectToFail()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "SuccessPathTestAPI_TS07",
+        "description": "  Description: This scenario verifies updating of previously created booking",
+        "id": "this-feature-has-successful-crud-operations-for-booking-api;successpathtestapi-ts07",
+        "after": [
+          {
+            "result": {
+              "duration": 265239,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 49444096,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I want to build the request with body",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1204864535,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I submit the \"PUT\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PUT\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 208116,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "The status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44414855,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "The response body should be as expected",
+            "match": {
+              "location": "stepdefinition.StepDefinition.theResponseBodyShouldBeAsExpected()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SuccessPathTestAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-12T11:14:53.675Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15644847,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 373149,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.expectToFail()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "SuccessPathTestAPI_TS08",
+        "description": "  Description: This scenario verifies partially updating of previously created booking",
+        "id": "this-feature-has-successful-crud-operations-for-booking-api;successpathtestapi-ts08",
+        "after": [
+          {
+            "result": {
+              "duration": 123219,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46149794,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I want to build the request with body",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1085789626,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I submit the \"PATCH\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PATCH\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 375516,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "The status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28957473,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "The response body should be as expected",
+            "match": {
+              "location": "stepdefinition.StepDefinition.theResponseBodyShouldBeAsExpected()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SuccessPathTestAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-12T11:14:54.857Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14971983,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 157534,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.expectToFail()"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "SuccessPathTestAPI_TS09",
+        "description": "  Description: This scenario verifies deletion of previously created booking",
+        "id": "this-feature-has-successful-crud-operations-for-booking-api;successpathtestapi-ts09",
+        "after": [
+          {
+            "result": {
+              "duration": 245077,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36536024,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I want to build the request",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iWantToBuildTheRequest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1100043595,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I submit the \"DELETE\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 432086,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "The status code should be 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SuccessPathTestAPI"
+          }
+        ]
+      }
+    ],
+    "name": "This feature has successful CRUD operations for booking API",
+    "description": "",
+    "id": "this-feature-has-successful-crud-operations-for-booking-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/SuccessPathTestAPI.feature",
+    "tags": [
+      {
+        "name": "@SuccessPathTestAPI",
         "type": "Tag",
         "location": {
           "line": 1,
